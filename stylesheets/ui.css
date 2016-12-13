@@ -1,10 +1,11 @@
 
+
 .btn {
   display: block;
-
+  border-style: solid;
 }
 
-.large {
+.btn.large {
   width: 300px;
   height: 50px;
   line-height: 50px;
@@ -12,19 +13,18 @@
   font-weight: bold;
   font-size: 17px;
   color: black;
-  border-style: solid;
   text-decoration: none;
-  background-color: #77ffe1;
+  background-color: rgb(102, 255, 226);
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
-  margin: -49px 0 0 569px;
+  margin: 2px 0 0 300px;
 }
 
-.small {
-  width: 250px;
+.btn.small {
+  width: 295px;
   height: 40px;
   line-height: 40px;
-  font-size: 17px;
+  font-size: 16px;
   color: white;
   font-family: 'PT Sans', sans-serif;
-  margin: 4px 0 0 588px;
-}
+  text-decoration: underline;
+ }
