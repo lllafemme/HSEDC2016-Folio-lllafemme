@@ -13,8 +13,20 @@
 
 .logo {
   display: block;
+  margin: 0 auto;
   width: 84px;
   height: 24px;
   background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1179px) {
+  .menubar div {
+    height: 40px;
+  }
+
+  .logo {
+    width: 58px;
+    height: 17px;
+  }
 }

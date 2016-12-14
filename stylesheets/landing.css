@@ -1,22 +1,13 @@
 body{
-  background-image: url(../images/landing/1180.png);
+  background-image: url(../images/landing/1179.png);
   background-repeat: no-repeat;
   background-position: top center;
   height: 3200px;
 }
 
 body.landing * {
+  -webkit-transition: all .3s ease;
   transition: all .3s ease;
-}
-
-
-
-body.landing .menubar div {
-  position: fixed;
-  background-color: white;
-  max-width: 1680px;
-  margin: 0 auto;
-  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
 }
 
 
@@ -47,10 +38,10 @@ body.landing .menubar div {
 
 
 .mainSection h2 {
-    font-family: 'PT Sans Caption', sans-serif;
-    font-weight: bold;
-    font-size: 44px;
-    line-height: 56px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 56px;
 }
 
 .mainSection p {
@@ -72,7 +63,7 @@ body.landing .menubar div {
 }
 
 .mainSection.left {
-  background-color: white;
+  /*background-color: white;*/
 }
 
 .mainSection.right section {
@@ -117,15 +108,7 @@ body.landing .menubar div {
   width: 100%;
 }
 
-.mainSection.center section nav {
-  margin-top: 56px;
-  margin-left: 558px;
-  font-size: 0;
-}
 
-.mainSection.center section nav a {
-  margin: 4px 14px;
-}
 
 .mainSection.center footer {
   position: absolute;
@@ -194,6 +177,24 @@ body.landing .menubar div {
   margin-top: 8px;
 }
 
+.btns {
+  height: 69px;
+  margin-top: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 1680px) {
   .landingWrapper {
     width: 100%;
@@ -201,48 +202,110 @@ body.landing .menubar div {
   }
 }
 
-@media screen and (max-width: 1180px){
-
+@media screen and (max-width: 1179px){
+/*
   .landingWrapper {
     width: 100%;
+  }*/
+
+
+  .mainSection {
+    width: 1179px;
+    height: 568px;
   }
+
+
+  .mainSection section h2 {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .mainSection section p {
+    font-size: 16px;
+    margin-top: 18px;
+    line-height: 26px;
+  }
+
+  .mainSection section {
+    top: 137px;
+    width: 340px;
+  }
+
+  .mainSection.left section {
+    left: 191px;
+  }
+
+  .mainSection.right section {
+    right: 193px;
+    top: 139px;
+  }
+
+
+
+  .mainSection section figure {
+    margin-top: 44px;
+    width: 22px;
+    height: 3px;
+  }
+
+  .mainSection.center section {
+    top: 137px;
+    left: 4px;
+  }
+  .mainSection.center h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .mainSection.center p {
+    margin-top: 18px;
+  }
+  .mainSection.center footer {
+    padding-bottom: 12px;
+
+  }
+
+  .mainSection.center footer p {
+    font-size: 13px;
+  }
+
 
 
   #mockup1 {
-    top: 233px;
-    right: 162px;
-    width: 529px;
-    height: 100%;
-  }
+      top: 166px;
+      right: 190px;
+      width: 378px;
+      height: 856px;
+    }
 
-  #mockup2 {
-    top: 193px;
-    left: 159px;
-    width: 139px;
-    height: 317px;
-  }
+    #mockup2 {
+      top: 138px;
+      left: 192px;
+      width: 100px;
+      height: 226px;
+    }
 
-  #mockup3 {
-    top: 193px;
-    left: 333px;
-    width: 140px;
-    height: 395px;
-  }
+    #mockup3 {
+      top: 138px;
+      left: 316px;
+      width: 100px;
+      height: 282px;
+    }
 
-  #mockup4 {
-    top: 193px;
-    left: 506px;
-    width: 140px;
-    height: 475px;
-  }
+    #mockup4 {
+      top: 138px;
+      left: 438px;
+      width: 100px;
+      height: 339px;
+    }
 
-  #mockup5 {
-    top: 303px;
-    right: 40px;
-    width: 760px;
-    height: 403px;
-  }
-
+    #mockup5 {
+      top: 242px;
+      right: 105px;
+      width: 545px;
+      height: 289px;
+    }
+}
 
 
 }
