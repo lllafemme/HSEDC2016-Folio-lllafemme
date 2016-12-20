@@ -25,9 +25,3 @@ body.landing .menubar {
   width: 100%;
   min-width: 768px;
 }
-
-.menubar,
-body.landing .menubar div {
-  background-color: white;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
-}

@@ -28,7 +28,7 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1179px) {
 
   .btn.large {
     width: 214px;
@@ -43,3 +43,4 @@
     line-height: 30px;
     font-size: 13px;
   }
+}
