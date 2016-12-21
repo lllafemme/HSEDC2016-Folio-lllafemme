@@ -4,7 +4,7 @@
   border-style: solid;
 }
 
-.btn.large {
+.large {
   width: 300px;
   height: 50px;
   line-height: 50px;
@@ -17,27 +17,26 @@
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
 }
 
-.btn.small {
+.small {
   width: 295px;
   height: 40px;
   line-height: 40px;
   font-size: 16px;
   color: white;
   font-family: 'PT Sans', sans-serif;
-  /*margin: 4px 0 0 330px;*/
   text-decoration: underline;
 }
 
 @media screen and (max-width: 1179px) {
 
-  .btn.large {
+  .large {
     width: 214px;
     height: 36px;
     line-height: 36px;
     font-size: 12px;
   }
 
-  .btn.small {
+  .small {
     width: 180px;
     height: 30px;
     line-height: 30px;
