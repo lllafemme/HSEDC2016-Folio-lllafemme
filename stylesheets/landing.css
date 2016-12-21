@@ -2,9 +2,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-body * {
+  box-sizing: border-box;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
@@ -13,6 +11,10 @@ body.landing.bg {
   background-image: url(../images/landing/1440.png);
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+body.landing {
+  background-color: #FAFAFA;
 }
 
 .landingWrapper {
@@ -29,6 +31,7 @@ body.landing.bg {
   align-items: center;
   overflow: hidden;
   width: 1440px;
+  min-width: 768px;
   margin: 0 auto;
   box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
 }
@@ -226,16 +229,16 @@ body.landing.bg {
 @media screen and (max-width: 1179px){
 
   body.landing.bg {
-      background-image: url(../images/landing/1179.png);
-    }
+    background-image: url(../images/landing/1179.png);
+  }
 
-    .full {
-      display: none;
-    }
+  .full {
+    display: none;
+  }
 
-    .compact {
-     display: block;
-    }
+  .compact {
+    display: block;
+  }
 
 
   .mainSection {
@@ -370,6 +373,7 @@ body.landing.bg {
   .mainSection.left section figure {
     margin-left: 1px;
   }
+
   .mainSection.right section figure {
     margin-left: 1px;
   }
@@ -377,6 +381,7 @@ body.landing.bg {
   .btns {
     margin-top: 91px;
   }
+
   #mockup1 {
     top: 482px;
     right: 150px;
