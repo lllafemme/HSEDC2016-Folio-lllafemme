@@ -4,6 +4,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body * {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
 body.landing.bg {
   background-image: url(../images/landing/1440.png);
   background-repeat: no-repeat;
@@ -194,7 +199,7 @@ body.landing.bg {
 }
 
 .btns {
-  height: 81px;
+  height: 94px;
   margin-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
